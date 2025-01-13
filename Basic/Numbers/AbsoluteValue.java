@@ -6,11 +6,17 @@ public class AbsoluteValue{
     public static void main(String[]args){
            Scanner sc = new Scanner(System.in);
            int value = sc.nextInt();
-                if( value >= 0){
+             /*   if( value >= 0){
                     System.out.println(value);
                 } else {
                    System.out.println(-(value));
                 }
+              */
+        // using ternary operator
+
+                int val = (value>=0?value:-(value));
+                  System.out.println(val);
+      
           sc.close();
     }
 }
