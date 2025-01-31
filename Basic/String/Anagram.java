@@ -32,8 +32,8 @@ static String shortto(String s){
     for(int i = 0 ; i<str.length;i++){
         sort += str[i];
     }
-    System.out.println(sort);
-    return sort;
+  //  System.out.println(sort);
+  //  return sort;
 }
 
   
