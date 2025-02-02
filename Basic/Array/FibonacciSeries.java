@@ -1,11 +1,11 @@
 package DSA.Basic.Array;
 
 public class FibonacciSeries{
-public static void main(String[] args) {
-		int arr []= Solution1.generateFibonacciNumbers(5);
-		for(int i = 0; i<arr.length;i++) {
-			System.out.println(arr[i]);
-		}
+   public static void main(String[] args) {
+     int arr []= Solution1.generateFibonacciNumbers(5);
+     for(int i = 0; i<arr.length;i++) {
+     System.out.println(arr[i]);
+     }
    }
 }
 class Solution1 {
