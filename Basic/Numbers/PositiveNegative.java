@@ -13,6 +13,9 @@ public class PositiveNegative{
            }else if(value < 0){
                       System.out.print("Given Number is Negative "+value);
            }  
+
+    		 int val = (value>=0?value:-(value));
+                  System.out.println(val);
          */
 
             String stringvalue = (value==0?"Given Number is "+value:(value>0)?"Given Number is Positive "+value:"Given Number is Negative "+value);
