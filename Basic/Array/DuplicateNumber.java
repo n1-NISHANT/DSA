@@ -2,7 +2,6 @@ package DSA.Basic.Array;
 
 public class DuplicateNumber{
 public static void main(String [] args){
-
      int ar1[] = {1,3,2,5,4,2,76,45,67,3,2,1,67,8,9,5,0};
     for(int i=0; i<ar1.length; i++){
           for(int j = i+1; j<ar1.length;j++){
