@@ -7,7 +7,6 @@ public void binarySearchmethod1() {
 	int target = 40;
 	System.out.println(indexOfTargetValue(arr,target));
 	}
-  
 	public static int indexOfTargetValue(int []arr,int target) {
 		int start = 0;
 		int end = arr.length-1;
