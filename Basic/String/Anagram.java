@@ -15,7 +15,6 @@ public class Anagram{
             return false;
         }     
     }
-
 static String shortto(String s){
     char [] str = s.toCharArray();
     char temp =' ';
@@ -34,9 +33,7 @@ static String shortto(String s){
     }
   //  System.out.println(sort);
   //  return sort;
-}
-
-  
+}  
 public static void main(String [] args){
     Scanner scan = new Scanner(System.in);
         String val1 = scan.next();
