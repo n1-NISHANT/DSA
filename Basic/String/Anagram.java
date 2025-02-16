@@ -15,6 +15,7 @@ public class Anagram{
             return false;
         }     
     }
+	
 static String shortto(String s){
     char [] str = s.toCharArray();
     char temp =' ';
