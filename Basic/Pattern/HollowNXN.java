@@ -1,5 +1,4 @@
 package DSA.Basic.Pattern;
-
 import java.util.Scanner;
 public class HollowNXN{
 public static void main(String[] args) {
